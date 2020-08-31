@@ -17,4 +17,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - cloud-task-mgr-service/target/task-mgr.war
+    - '**/task-mgr.war'
