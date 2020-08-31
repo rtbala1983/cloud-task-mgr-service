@@ -17,5 +17,5 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - tas-mgr/1.0/task-mgr-1.0-SNAPSHOT.war
+    - task-mgr/1.0-SNAPSHOT/task-mgr-1.0-SNAPSHOT.war
   discard-paths: yes
