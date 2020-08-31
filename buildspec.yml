@@ -10,6 +10,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - cd /opt/
       - mvn clean
       - mvn install -DskipTests=true
   post_build:
@@ -17,4 +18,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/task-mgr-1.0-SNAPSHOT.war
+    - **/task-mgr-1.0-SNAPSHOT.war
